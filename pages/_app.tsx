@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 // global styles shared across the entire site
 import * as React from 'react'
 import type { AppProps } from 'next/app'
@@ -61,5 +62,10 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
 }
