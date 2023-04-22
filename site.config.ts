@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '這個是測試啦',
+  name: 'Brandon 的技術部落格',
   domain: 'brandon-nccu.notion.site',
   author: 'Brandon',
 
   // open graph metadata (optional)
-  description: '測試測試！',
+  description: '這是一個小技術部落格，偶爾分享技術文章',
 
   // social usernames (optional)
   twitter: '#',
